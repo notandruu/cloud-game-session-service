@@ -1,0 +1,8 @@
+.DS_Store
+target/
+.idea/
+*.iml
+.env
+.mvn/apache-maven-*/
+.mvn/*.tar.gz
+firebase-service-account.json
