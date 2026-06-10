@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cloud-game-session-config
+data:
+  APP_STORE_TYPE: redis
+  APP_PERSISTENCE_TYPE: firestore
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
+  MANAGEMENT_HEALTH_REDIS_ENABLED: "true"
+  APP_HEARTBEAT_TIMEOUT: 45s
+  APP_ACTIVE_SESSION_TTL: 60s
+  APP_QUEUE_DRAIN_DELAY: 5s
+  APP_EXPIRATION_DELAY: 5s
